@@ -1,0 +1,12 @@
+record LoginRequest(string Email, string Password);
+record User(int Id, string Name, string Email, string PasswordHash, string Role);
+record Dashboard(decimal OpenValue, decimal WonValue, int Customers, int TasksDueToday);
+record Customer(int Id, string Company, string ContactName, string? Email, string? Phone, string? City);
+record Deal(int Id, string Title, decimal Value, string Stage, int CustomerId, string Company, int OwnerId, string OwnerName, DateTime CreatedAt);
+record NewDeal(string Title, decimal Value, int CustomerId);
+record StageUpdate(string Stage);
+record Activity(int Id, string Type, string Note, string UserName, DateTime CreatedAt);
+record NewActivity(string Type, string Note);
+record TaskItem(int Id, string Title, DateTime DueDate, bool Done, string UserName);
+record NewTask(string Title, DateTime DueDate);
+record DoneUpdate(bool Done);
