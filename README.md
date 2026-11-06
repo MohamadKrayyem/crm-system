@@ -51,3 +51,20 @@ You need the .NET 10 SDK, Node.js and SQL Server.
 | sales@demo.com | Demo@123 | Sales |
 
 Sales sees only their own deals and tasks. Admin sees everything, and only Admin can delete.
+
+## Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Customers
+![Customers](screenshots/customers.png)
+
+### Deals
+![Deals](screenshots/deals.png)
+
+### Tasks
+![Tasks](screenshots/tasks.png)
